@@ -25,5 +25,6 @@ RUN wget https://github.com/SaladTechnologies/salad-cloud-job-queue-worker/relea
 
 COPY start-v03b.sh /opt/start-v03b.sh
 RUN chmod +x /opt/start-v03b.sh
-
+RUN echo "=== SEARCH COMFYUI API ===" && \
+    find / -maxdepth 4 \( -iname '*comfyui*api*' -o -iname '*main.py' \) 2>/dev/null | head -100
 ENTRYPOINT ["/opt/start-v03b.sh"]
