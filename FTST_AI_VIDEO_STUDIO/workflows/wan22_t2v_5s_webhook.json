@@ -54,14 +54,8 @@
     "55": {
       "class_type": "Wan22ImageToVideoLatent",
       "inputs": {
-        "positive": [
-          "6",
-          0
-        ],
-        "negative": [
-          "7",
-          0
-        ],
+        
+        
         "vae": [
           "39",
           0
@@ -86,16 +80,16 @@
           0
         ],
         "positive": [
-          "55",
+          "6",
           0
         ],
         "negative": [
-          "55",
-          1
+          "7",
+          0
         ],
         "latent_image": [
           "55",
-          2
+          0
         ]
       }
     },
